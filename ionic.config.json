@@ -1,0 +1,7 @@
+{
+  "name": "gdrive-list-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

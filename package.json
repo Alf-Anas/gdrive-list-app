@@ -1,15 +1,26 @@
 {
-  "name": "gdrive-list-kejagung-audit",
+  "name": "gdrive-list-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "static": "next build && next export",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start"
   },
   "dependencies": {
     "@ant-design/icons": "^5.1.4",
+    "@capacitor/android": "5.2.2",
+    "@capacitor/app": "5.0.6",
+    "@capacitor/cli": "5.2.2",
+    "@capacitor/core": "5.2.2",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/ios": "5.2.2",
+    "@capacitor/keyboard": "5.0.6",
+    "@capacitor/status-bar": "5.0.6",
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",

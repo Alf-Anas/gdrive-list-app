@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GDrive List App</string>
+    <string name="title_activity_main">GDrive List App</string>
+    <string name="package_name">gdrive.list.app</string>
+    <string name="custom_url_scheme">gdrive.list.app</string>
+</resources>
